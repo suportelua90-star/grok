@@ -1,0 +1,175 @@
+/*
+PW REBRANDS - IPTV Premium Theme
+- Non-invasive overrides (does not touch backend)
+- Works with Bootstrap/Metronic variables + theme-colors.css
+*/
+
+:root{
+  /* Base surfaces (tuned to a "Legacy Prime" teal/dark look; accent still comes from --app-primary) */
+  --pw-bg-0:#06131c;
+  --pw-bg-1:#07202c;
+  --pw-card:rgba(255,255,255,.05);
+  --pw-card-2:rgba(255,255,255,.075);
+  --pw-border:rgba(255,255,255,.10);
+  --pw-text:rgba(255,255,255,.92);
+  --pw-muted:rgba(255,255,255,.62);
+  --pw-glow:rgba(var(--app-primary-rgb),.22);
+  --pw-glow-strong:rgba(var(--app-primary-rgb),.38);
+  --pw-gold:#f6c85f;
+  --pw-gold-soft:rgba(246,200,95,.18);
+}
+
+html[data-bs-theme="dark"] body{
+  background: radial-gradient(1200px 650px at 15% 10%, rgba(var(--app-primary-rgb),.14), transparent 62%),
+              radial-gradient(900px 520px at 78% 35%, rgba(var(--app-primary-rgb),.06), transparent 58%),
+              linear-gradient(180deg, var(--pw-bg-1), var(--pw-bg-0));
+}
+
+/* App shell */
+.app-sidebar{
+  background:
+    linear-gradient(180deg, rgba(var(--app-primary-rgb),.10), rgba(0,0,0,.18)),
+    linear-gradient(180deg, rgba(5,30,42,.96), rgba(5,18,28,.96));
+  border-right: 1px solid rgba(255,255,255,.08);
+}
+
+.app-header{
+  background: rgba(5,18,28,.72);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+/* Sidebar active glow */
+.menu .menu-link.active,
+.menu .menu-link:hover{
+  box-shadow: 0 0 0 1px rgba(var(--app-primary-rgb),.22), 0 10px 30px rgba(0,0,0,.28);
+  background: linear-gradient(90deg, rgba(var(--app-primary-rgb),.18), rgba(255,255,255,.02));
+  border-radius: 12px;
+}
+
+.menu-heading{
+  color: rgba(255,255,255,.78) !important;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  font-size: .78rem;
+}
+
+/* Cards / containers */
+.card,
+.app-container .card,
+.app-container .table-responsive{
+  background: var(--pw-card);
+  border: 1px solid var(--pw-border);
+  border-radius: 18px;
+  backdrop-filter: blur(10px);
+}
+
+/* Buttons glow */
+.btn.btn-primary{
+  box-shadow: 0 0 0 1px rgba(var(--app-primary-rgb),.25), 0 14px 40px rgba(var(--app-primary-rgb),.18);
+}
+.btn.btn-primary:hover{
+  box-shadow: 0 0 0 1px rgba(var(--app-primary-rgb),.35), 0 16px 55px rgba(var(--app-primary-rgb),.26);
+}
+
+/* Table IPTV style */
+.table{
+  color: var(--pw-text);
+}
+.table thead th{
+  color: rgba(255,255,255,.85);
+  background: rgba(255,255,255,.04);
+  border-bottom: 1px solid rgba(255,255,255,.10) !important;
+}
+.table tbody tr{
+  border-color: rgba(255,255,255,.08);
+  background: rgba(255,255,255,.02);
+}
+.table tbody tr:hover{
+  background: rgba(var(--app-primary-rgb),.06);
+}
+
+/* Modals (match the teal/dark glass look from the references) */
+.modal-content{
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)),
+    linear-gradient(180deg, rgba(7,32,44,.96), rgba(6,16,26,.96));
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 18px;
+  backdrop-filter: blur(14px);
+}
+.modal-header,
+.modal-footer{
+  border-color: rgba(255,255,255,.10) !important;
+}
+
+/* Pills / badges */
+.badge,
+.label{
+  border-radius: 999px;
+}
+
+/* Accent pills */
+.badge.bg-success,
+.badge-light-success{
+  box-shadow: 0 0 0 1px rgba(34,197,94,.25);
+}
+
+/* Login page tweaks */
+.pw-login-hero{
+  background: linear-gradient(180deg, rgba(6,8,20,.25), rgba(6,8,20,.75));
+  backdrop-filter: blur(6px);
+}
+
+/* Subtle gold highlight utility */
+.pw-gold{
+  color: var(--pw-gold) !important;
+}
+
+
+    /* Define theme colors */
+    :root {
+        --primary-color: #0056b3;
+        --background-color: #ffffff;
+        --text-color: #333333;
+        --header-bg: #222222;
+    }
+
+    /* Dark theme */
+    .dark-theme {
+        --primary-color: #333333;
+        --background-color: #121212;
+        --text-color: #ffffff;
+        --header-bg: #1c1c1c;
+    }
+
+    /* Ocean Blue theme */
+    .ocean-blue-theme {
+        --primary-color: #0077b6;
+        --background-color: #f0f8ff;
+        --text-color: #000000;
+        --header-bg: #005f73;
+    }
+
+    /* Forest Green theme */
+    .forest-green-theme {
+        --primary-color: #228b22;
+        --background-color: #f4f4f4;
+        --text-color: #ffffff;
+        --header-bg: #006400;
+    }
+
+    /* Other themes could follow a similar pattern */
+
+    /* Apply the variables to the CSS */
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+    header {
+        background-color: var(--header-bg);
+    }
+    a {
+        color: var(--primary-color);
+    }
+    

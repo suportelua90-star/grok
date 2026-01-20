@@ -1,0 +1,132 @@
+/*
+Theme Color System (A)
+- Uses data-theme-color on <html>
+- Saves selection in localStorage (key: theme-color)
+- Overrides primary accent variables (Bootstrap + Metronic-like vars)
+*/
+
+:root {
+  --app-primary: #a855f7;
+  --app-primary-rgb: 168, 85, 247;
+  --app-primary-soft: rgba(168, 85, 247, 0.15);
+}
+
+html {
+  /* Bootstrap */
+  --bs-primary: var(--app-primary);
+  --bs-primary-rgb: var(--app-primary-rgb);
+  --bs-link-color: var(--app-primary);
+  --bs-link-hover-color: color-mix(in srgb, var(--app-primary) 80%, white);
+  --bs-focus-ring-color: rgba(var(--app-primary-rgb), 0.25);
+
+  /* Metronic-like */
+  --kt-primary: var(--app-primary);
+  --kt-primary-rgb: var(--app-primary-rgb);
+}
+
+/* Theme palettes */
+html[data-theme-color="arctic-cyan"] {
+  /* Arctic Cyan */
+  --app-primary: #06b6d4;
+  --app-primary-rgb: 6, 182, 212;
+  --app-primary-soft: rgba(6, 182, 212, 0.16);
+}
+
+html[data-theme-color="ocean"] {
+  --app-primary: #0ea5e9;
+  --app-primary-rgb: 14, 165, 233;
+  --app-primary-soft: rgba(14, 165, 233, 0.15);
+}
+
+html[data-theme-color="dark"] {
+  --app-primary: #334155;
+  --app-primary-rgb: 51, 65, 85;
+  --app-primary-soft: rgba(51, 65, 85, 0.15);
+}
+
+html[data-theme-color="forest-green"] {
+  --app-primary: #22c55e;
+  --app-primary-rgb: 34, 197, 94;
+  --app-primary-soft: rgba(34, 197, 94, 0.15);
+}
+
+html[data-theme-color="royal-purple"] {
+  --app-primary: #8b5cf6;
+  --app-primary-rgb: 139, 92, 246;
+  --app-primary-soft: rgba(139, 92, 246, 0.15);
+}
+
+html[data-theme-color="crimson-red"] {
+  --app-primary: #ef4444;
+  --app-primary-rgb: 239, 68, 68;
+  --app-primary-soft: rgba(239, 68, 68, 0.15);
+}
+
+html[data-theme-color="sunset-orange"] {
+  --app-primary: #f97316;
+  --app-primary-rgb: 249, 115, 22;
+  --app-primary-soft: rgba(249, 115, 22, 0.15);
+}
+
+/* Small UI polish for theme menu tiles */
+.hover-elevate-up {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.hover-elevate-up:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+html[data-theme-color="pw-rebrands"] {
+  /* PW REBRANDS (Neon Purple) */
+  --app-primary: #b03cff;
+  --app-primary-rgb: 176, 60, 255;
+  --app-primary-soft: rgba(176, 60, 255, 0.16);
+}
+
+    /* Define theme colors */
+    :root {
+        --primary-color: #0056b3;
+        --background-color: #ffffff;
+        --text-color: #333333;
+        --header-bg: #222222;
+    }
+
+    /* Dark theme */
+    .dark-theme {
+        --primary-color: #333333;
+        --background-color: #121212;
+        --text-color: #ffffff;
+        --header-bg: #1c1c1c;
+    }
+
+    /* Ocean Blue theme */
+    .ocean-blue-theme {
+        --primary-color: #0077b6;
+        --background-color: #f0f8ff;
+        --text-color: #000000;
+        --header-bg: #005f73;
+    }
+
+    /* Forest Green theme */
+    .forest-green-theme {
+        --primary-color: #228b22;
+        --background-color: #f4f4f4;
+        --text-color: #ffffff;
+        --header-bg: #006400;
+    }
+
+    /* Other themes could follow a similar pattern */
+
+    /* Apply the variables to the CSS */
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+    header {
+        background-color: var(--header-bg);
+    }
+    a {
+        color: var(--primary-color);
+    }
+    
