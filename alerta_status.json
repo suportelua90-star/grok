@@ -1,0 +1,5 @@
+{
+    "alerta_vencimento_ativo": true,
+    "mensagem_vencimento_hoje": "Sua assinatura vence hoje!",
+    "mensagem_vencimento_dias": "Sua assinatura vence em %d dia(s)!"
+}

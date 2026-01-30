@@ -1,0 +1,62 @@
+[24-Dec-2025 18:20:19 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/pain0133/flixtv.painelmaster.lol/ibo4/logo.php on line 44
+[26-Dec-2025 20:58:12 America/Sao_Paulo] PHP Warning:  file_get_contents(/home/pain0133/flixtv.painelmaster.lol/ibo4/api/alerta_status.json): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/alerta_vencimento.php on line 10
+[27-Dec-2025 16:38:43 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: chatbot_slc_max in /home/pain0133/flixtv.painelmaster.lol/ibo4/teste.php:50
+Stack trace:
+#0 /home/pain0133/flixtv.painelmaster.lol/ibo4/teste.php(50): PDO->query('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/pain0133/flixtv.painelmaster.lol/ibo4/teste.php on line 50
+[06-Jan-2026 22:13:19 America/Sao_Paulo] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, no such column: content in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 53
+[06-Jan-2026 22:13:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on bool in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 54
+[06-Jan-2026 23:15:27 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 196
+[06-Jan-2026 23:15:27 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 196
+[06-Jan-2026 23:15:27 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 196
+[06-Jan-2026 23:17:44 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 196
+[06-Jan-2026 23:17:44 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 196
+[06-Jan-2026 23:17:44 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 196
+[06-Jan-2026 23:18:09 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 197
+[06-Jan-2026 23:18:09 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 197
+[06-Jan-2026 23:18:09 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 197
+[06-Jan-2026 23:18:11 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 197
+[06-Jan-2026 23:18:11 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 197
+[06-Jan-2026 23:18:11 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 197
+[06-Jan-2026 23:18:11 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 197
+[06-Jan-2026 23:18:11 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 197
+[06-Jan-2026 23:18:11 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 197
+[06-Jan-2026 23:18:15 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 197
+[06-Jan-2026 23:18:15 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 197
+[06-Jan-2026 23:18:15 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 197
+[06-Jan-2026 23:18:54 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 180
+[06-Jan-2026 23:18:54 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 180
+[06-Jan-2026 23:18:54 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 180
+[06-Jan-2026 23:18:57 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 180
+[06-Jan-2026 23:18:57 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 180
+[06-Jan-2026 23:18:57 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 180
+[06-Jan-2026 23:19:09 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 196
+[06-Jan-2026 23:19:09 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 196
+[06-Jan-2026 23:19:09 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 196
+[06-Jan-2026 23:19:37 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 196
+[06-Jan-2026 23:19:37 America/Sao_Paulo] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 196
+[06-Jan-2026 23:19:37 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 196
+[07-Jan-2026 00:38:56 America/Sao_Paulo] PHP Warning:  SQLite3::query(): Unable to prepare statement: 1, no such column: qrcode in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 88
+[07-Jan-2026 00:38:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetchArray() on bool in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php:89
+Stack trace:
+#0 {main}
+  thrown in /home/pain0133/flixtv.painelmaster.lol/ibo4/qrcode.php on line 89
+[28-Jan-2026 10:42:18 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 10:42:23 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 10:55:09 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 11:06:23 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 11:07:03 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 11:31:58 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 16:11:06 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 21:48:39 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 21:51:19 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 22:08:32 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 22:09:01 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 22:09:03 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 22:09:19 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 22:09:22 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5
+[28-Jan-2026 22:09:40 America/Sao_Paulo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/pwiboonl/public_html/ibopw/session_check.php on line 5

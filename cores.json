@@ -1,0 +1,8 @@
+{
+    "START_COLOR_XML": "#0A4FB3",
+    "END_COLOR_XML": "#3BB6FF",
+    "BORDER_COLOR_NORMAL": "#f2eded",
+    "BORDER_COLOR_FOCUS": "#c8ff00",
+    "BORDER_WIDTH_DP": 2,
+    "CORNER_RADIUS_DP": 15
+}

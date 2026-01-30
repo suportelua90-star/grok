@@ -1,0 +1,27 @@
+========== NOVA REQUISIÇÃO ==========
+[DATE]: 2025-05-23 23:27:24
+[IP]: 200.106.210.170
+[METHOD]: GET
+[URL]: /ibo4/video.php
+[GET_PARAMS]: Array
+(
+)
+
+[POST_PARAMS]: Array
+(
+)
+
+[HEADERS]: Array
+(
+    [Host] => newibo.painelmaster.lol
+    [cf-ray] => 944852e02c49f21f-GRU
+    [X-Forwarded-For] => 200.106.210.170, 172.69.114.7
+    [Accept-Encoding] => gzip, br
+    [User-Agent] => stagefright/1.2 (Linux;Android 7.1.2)
+    [cf-visitor] => {"scheme":"https"}
+    [x-forwarded-proto] => https
+    [cdn-loop] => cloudflare; loops=1
+    [cf-connecting-ip] => 200.106.210.170
+    [cf-ipcountry] => BR
+)
+
